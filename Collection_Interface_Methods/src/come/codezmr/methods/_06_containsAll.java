@@ -20,10 +20,10 @@ public class _06_containsAll {
 		al2.add("AAA");
 		al2.add("BBB");
 		al2.add("CCC");
-		al2.add("DDD");
+		al2.add("GGG");
 		
 		System.out.println(al2);
-		System.out.println(al1.containsAll(al2));
+		System.out.println(al1.containsAll(al2)); //false
 	}
 
 }
