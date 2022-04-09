@@ -2,7 +2,7 @@ package come.codezmr.methods;
 
 import java.util.HashSet;
 
-public class AddMethod {
+public class _01_add {
 
 	public static void main(String[] args) {
 		
