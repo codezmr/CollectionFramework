@@ -20,10 +20,19 @@ public class _06_containsAll {
 		al2.add("AAA");
 		al2.add("BBB");
 		al2.add("CCC");
-		al2.add("GGG");
 		
 		System.out.println(al2);
-		System.out.println(al1.containsAll(al2)); //false
+		System.out.println(al1.containsAll(al2)); //true
+	
+		
+		ArrayList<String> al3 = new ArrayList<String>();
+		
+		al3.add("XXX");
+		al3.add("YYY");
+		al3.add("ZZZ");
+		
+		System.out.println(al3);
+		System.out.println(al1.containsAll(al3)); //false
 	}
 
 }
