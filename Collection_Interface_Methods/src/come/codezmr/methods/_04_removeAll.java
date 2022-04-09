@@ -18,9 +18,14 @@ public class _04_removeAll {
 		ArrayList<String> al2 = new ArrayList<String>();
 		al2.add("BBB");
 		al2.add("CCC");
+		al2.add("XXX");
+		al2.add("ZZZ");
+		
 		System.out.println(al2);
+		
 		System.out.println(al1.removeAll(al2));
 		System.out.println(al1);
+		
 
 	}
 
