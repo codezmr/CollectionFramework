@@ -15,8 +15,8 @@ public class _07_retainAll {
 		ArrayList<String> al2 = new ArrayList<String>();
 		al2.add("AAA");
 		al2.add("BBB");
-		al2.add("CCC");
-		al2.add("DDD");
+		al2.add("ZZZ");
+		al2.add("XXX");
 		System.out.println(al2);
 		System.out.println(al1.retainAll(al2));
 		System.out.println(al1);
