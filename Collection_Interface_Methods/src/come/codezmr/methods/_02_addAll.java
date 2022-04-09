@@ -8,7 +8,7 @@ public class _02_addAll {
 	 * It can be used to add all the elements of the specified 
 	 * Collection  to the present Collection Object.
 	 * 
-	 * If the elements are added successfully to the Collection
+	 * If atleast one or more elements are added successfully to the Collection
 	 * object the addAll() method will return True value.
 	 * 
 	 * If the elements are not added successfully to the Collection
@@ -27,16 +27,15 @@ public class _02_addAll {
 		System.out.println(hs1);
 		
 		HashSet<String> hs2 = new HashSet<String>();
+		hs2.add("BBB");
+		hs2.add("CCC");
 		hs2.add("XXX");
 		hs2.add("YYY");
-		hs2.add("ZZZ");
 		System.out.println(hs2);
 		
-		System.out.println(hs1.addAll(hs2)); //true
+		System.out.println(hs1.addAll(hs2)); //true  
 		System.out.println(hs1);
-		
-		System.out.println(hs1.addAll(hs2)); //false
-		System.out.println(hs1);
+
 		
 		
 	}
