@@ -26,6 +26,13 @@ public class _04_removeAll {
 		System.out.println(al1.removeAll(al2));
 		System.out.println(al1);
 		
+		/*
+		 * If atleast one element is matched and if it
+		 * is removed then removeAll() method will
+		 * return true value, if no element
+		 * is matched and no element is removed then
+		 * removeAll() method will return false value.
+		 * */
 
 	}
 
