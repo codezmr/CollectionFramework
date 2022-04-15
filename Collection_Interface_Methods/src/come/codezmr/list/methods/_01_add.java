@@ -26,10 +26,13 @@ public class _01_add {
 		list.add(2, "CCC");
 		list.add(3, "BBB");
 		list.add(4, "FFF");
-		System.out.println(list);
+		System.out.println(list); //[AAA, EEE, CCC, BBB, FFF]
 		
-		list.add(6, "GGG");//Exc-IndexOutOfBoundsException
-		System.out.println(list);
+		//list.add(6, "GGG");//Exc-IndexOutOfBoundsException
+		
+		list.add(2, "ZZZ");
+		
+		System.out.println(list); //[AAA, EEE, ZZZ, CCC, BBB, FFF]
 		
 	}
 
