@@ -24,6 +24,12 @@ public class _03_set {
 	
 		list.add(3, "ZZZ");
 		System.out.println(list);//[AAA, ZMR, CCC, ZZZ, BBB, FFF]
+	
+		list.set(5, "XXX");
+		System.out.println(list);
+		
+		list.set(9, "YYY");
+		System.out.println(list);//IndexOutOfBoundsException
 	}
 
 }
