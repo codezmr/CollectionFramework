@@ -18,6 +18,12 @@ public class _03_set {
 		
 		list.set(1, "ZMR");
 		System.out.println(list);//[AAA, ZMR, CCC, BBB, FFF]
+		
+		//set method override the elements or replace the element
+		//but add method insert the element and adjust that index element
+	
+		list.add(3, "ZZZ");
+		System.out.println(list);//[AAA, ZMR, CCC, ZZZ, BBB, FFF]
 	}
 
 }
