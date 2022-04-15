@@ -28,6 +28,9 @@ public class _01_add {
 		list.add(4, "FFF");
 		System.out.println(list);
 		
+		list.add(6, "GGG");//Exc-IndexOutOfBoundsException
+		System.out.println(list);
+		
 	}
 
 }
